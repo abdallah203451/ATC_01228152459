@@ -1,6 +1,6 @@
 # Event Booking System 🚀
 
-A full-stack event booking platform with a **.NET 9** backend and a **React + TypeScript** frontend. This professional README combines both projects, detailing architecture, features, tech stack, setup, and deployment instructions.
+A comprehensive full‑stack event booking platform with a **.NET 9** backend and a **React + TypeScript** frontend. This README covers architecture, standout features, tech stack, setup instructions, and live deployment links.
 
 ---
 
@@ -8,7 +8,7 @@ A full-stack event booking platform with a **.NET 9** backend and a **React + Ty
 
 1. [Project Overview](#project-overview)
 2. [Architecture](#architecture)
-3. [Key Features](#key-features)
+3. [Core Features](#core-features)
 4. [Technology Stack](#technology-stack)
 5. [Prerequisites](#prerequisites)
 6. [Getting Started](#getting-started)
@@ -17,21 +17,20 @@ A full-stack event booking platform with a **.NET 9** backend and a **React + Ty
    - [Frontend Setup](#frontend-setup)
 
 7. [Testing](#testing)
-8. [Docker Support](#docker-support)
-9. [Deployment](#deployment)
-10. [Contributing](#contributing)
-11. [License & Contact](#license--contact)
+8. [Deployment & Live Demo](#deployment--live-demo)
+9. [Contributing](#contributing)
+10. [License & Contact](#license--contact)
 
 ---
 
 ## 📌 Project Overview
 
-The **Event Booking System** is a complete solution that enables users to discover, book, and manage events. It comprises:
+The **Event Booking System** empowers users to discover, book, and manage events seamlessly:
 
-- **Backend**: Secure, scalable API built with **.NET 9**, following Clean Architecture.
-- **Frontend**: Fast, responsive SPA built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**.
+- **Backend**: Built on **.NET 9** with Clean Architecture principles for a secure, maintainable API.
+- **Frontend**: A lightning‑fast SPA using **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-Users can browse events, book tickets, view booking history, and administrators can manage events, categories, and tags via an intuitive dashboard.
+Features include user registration, event search, ticket booking, and an admin dashboard for event curation.
 
 ---
 
@@ -39,48 +38,83 @@ Users can browse events, book tickets, view booking history, and administrators 
 
 ### Backend (Clean Architecture)
 
-```plaintext
+```
 Backend/
-├── Domain/           # Core entities, value objects, and enums
-├── Application/      # Application services, interfaces, and DTOs
-├── Infrastructure/   # EF Core context, repositories, external service implementations, Identity
-└── Presentation/     # API controllers, middleware, and filters
+├── Domain/           # Entities, value objects, enums
+├── Application/      # Services, interfaces, DTOs
+├── Infrastructure/   # EF Core, repositories, Identity, Redis
+└── Presentation/     # API controllers, middleware, Swagger
 ```
 
-- **Separation of Concerns:** Each layer has a distinct responsibility, ensuring maintainability.
-- **Dependency Rule:** Inner layers (Domain, Application) remain free from external dependencies.
-- **Testability:** Business logic in Domain and Application can be unit-tested independently.
+- **Separation of Concerns:** Each layer has a clear responsibility.
+- **Dependency Rule:** Inner layers are free of external dependencies.
+- **Testability:** Core logic lives in Domain/Application for unit testing.
 
-### Frontend (Component-Based)
+### Frontend (Component‑Driven)
 
-```plaintext
+```
 Frontend/
-├── public/              # Static assets (favicon, logo)
-├── src/                 # Source code
-│   ├── components/      # Reusable UI (admin/ and ui/)
-│   ├── contexts/        # React context providers
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions and helpers
-│   ├── pages/           # Page components (including admin/)
-│   └── services/        # API service layer (Axios)
-└── vite.config.ts       # Vite configuration
+├── public/           # Static assets
+├── src/              # Application code
+│   ├── components/   # Reusable UI components
+│   ├── contexts/     # React Context providers
+│   ├── hooks/        # Custom hooks
+│   ├── lib/          # Utilities
+│   ├── pages/        # Route components
+│   └── services/     # API layer (Axios)
+└── vite.config.ts    # Vite configuration
 ```
 
 - **Modularity:** Components, hooks, and contexts are isolated and testable.
-- **Performance:** Fast refresh and optimized bundling with Vite.
+- **Performance:** Vite’s fast refresh and optimized builds.
 
 ---
 
-## ✨ Key Features
+## 🌟 Core Features
 
-| Feature Area         | Backend                                    | Frontend                                      |
-| -------------------- | ------------------------------------------ | --------------------------------------------- |
-| **Authentication**   | JWT access & refresh tokens, role-based    | Secure login & registration, protected routes |
-| **Event Management** | CRUD operations, search, filtering, tags   | Browse, filter, detail views                  |
-| **Booking System**   | Booking creation, status tracking, history | Booking workflows, manage & cancel bookings   |
-| **Admin Dashboard**  | Role validation, category/tag endpoints    | Admin UI for events, categories, tags         |
-| **Performance**      | Redis caching, Serilog logging             | Client-side caching, code-splitting           |
-| **Documentation**    | Swagger/OpenAPI with versioning            | Inline code docs, contextual guidance         |
+### 1. Discover & Navigate
+
+- **Responsive & Themed Design:**
+
+  - **Dark Mode** toggle for low‑light environments.
+  - Adaptive cards and menus that work seamlessly from phones to widescreen.
+
+- **Multi‑Language Support:**
+
+  - Switch between English and Arabic UI text and RTL layout when Arabic is selected.
+
+- **Tags & Categories:**
+
+  - Browse by curated categories (e.g. “Music”, “Workshops”) and tags (e.g. “Networking”, “Free”).
+
+- **Search & Filters:**
+
+  - Full‑text search, category/tag filtering, and dynamic sorting.
+
+- **Pagination & Lazy Loading:**
+
+  - Backend‑driven page APIs or infinite scroll for optimized data loading.
+
+### 2. Booking Workflow
+
+- **Real‑Time Availability:** Live ticket counters and low‑ticket alerts.
+- **Confirmation & History:** Book, cancel, and review past bookings in your personal dashboard.
+
+### 3. Admin & Event Management
+
+- **Role‑Based Permissions:**
+
+  - **Admins** manage events, categories, tags, and can view all bookings.
+  - **Users** browse, book, and cancel their own bookings.
+
+- **Event Image Uploads:** Drag‑and‑drop cover images, server‑side storage, and automatic thumbnail generation.
+- **CRUD Operations:** Full create, read, update, and delete for events, categories, and tags.
+
+### 4. Security & Performance
+
+- **Authentication:** JWT access & refresh tokens for secure sessions.
+- **Caching:** Redis caching layer to boost API response times under heavy loads.
+- **Logging:** Serilog for structured, searchable logs.
 
 ---
 
@@ -90,77 +124,51 @@ Frontend/
 
 - **Framework:** .NET 9
 - **Language:** C#
-- **ORM:** Entity Framework Core 9
+- **ORM:** EF Core 9
 - **Database:** SQL Server
 - **Caching:** Redis
 - **Logging:** Serilog
 - **Mapping:** AutoMapper
-- **Authentication:** JWT (access & refresh tokens)
-- **Documentation:** Swagger/OpenAPI
+- **Auth:** JWT (access + refresh)
+- **API Docs:** Swagger/OpenAPI
 
 ### Frontend
 
 - **Framework:** React 18
 - **Language:** TypeScript
-- **Build Tool:** Vite
+- **Bundler:** Vite
 - **Styling:** Tailwind CSS
-- **UI Components:** shadcn/ui (Radix + Tailwind)
-- **Routing:** React Router
+- **Components:** shadcn/ui (Radix + Tailwind)
+- **Routing:** React Router v6
 - **Forms:** React Hook Form
-- **HTTP Client:** Axios
+- **HTTP:** Axios
 - **Animations:** Framer Motion
-- **Date Library:** date-fns
-
-\----------- | ------------------------------------------- | ----------------------------------------- |
-\| Language | C# | TypeScript |
-\| Framework | .NET 9 | React 18 |
-\| ORM/Client | Entity Framework Core 9 | Axios |
-\| Database | SQL Server | — |
-\| Caching | Redis | Local Storage |
-\| Logging | Serilog | — |
-\| Mapping | AutoMapper | — |
-\| Styling | — | Tailwind CSS |
-\| Build Tool | — | Vite |
-\| Animation | — | Framer Motion |
-\| Forms | — | React Hook Form |
-\| Routing | — | React Router |
-\| Dates | — | date-fns |
-\| UI Library | — | shadcn/ui |
+- **Dates:** date-fns
 
 ---
 
 ## 🔧 Prerequisites
 
 - **.NET 9 SDK**
-- **SQL Server** (or Express)
-- **Redis** (optional for caching)
-- **Node.js** >= v18 & **npm** >= v8
-- **Visual Studio 2022** or **VS Code**
+- **SQL Server** (Local or Express)
+- **Redis** (optional)
+- **Node.js** ≥ v18 & **npm** ≥ v8
+- **VS Code** or **Visual Studio 2022**
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to run both backend and frontend locally.
-
 ### Backend Setup
 
-1. **Clone the repo** and navigate to backend:
+1. **Clone & enter**:
 
    ```bash
-   git clone https://github.com/yourusername/event-booking-system.git
+   git clone https://github.com/abdallah203451/ATC_01228152459
    cd event-booking-system/Backend
    ```
 
-2. **Configure** `appsettings.json`:
-
-   ```json
-   "ConnectionStrings": {
-     "DefaultConnection": "Server=YOUR_SERVER;Database=EventBookingSystem;Trusted_Connection=True;TrustServerCertificate=True",
-     "Redis": "localhost:6379,abortConnect=false,connectTimeout=10000,syncTimeout=10000,connectRetry=3"
-   }
-   ```
-
+2. **Configure** `appsettings.json` connection strings.
 3. **Apply migrations**:
 
    ```bash
@@ -168,96 +176,66 @@ Follow these steps to run both backend and frontend locally.
    dotnet ef database update
    ```
 
-4. **Run** the API:
+4. **Run API**:
 
    ```bash
    dotnet run
    ```
 
-5. **Swagger UI**: [https://localhost:5001/swagger](https://localhost:5001/swagger)
+5. **Browse**: [https://localhost:5001/swagger](https://localhost:5148/swagger)
 
 ### Frontend Setup
 
-1. **Navigate** to frontend:
+1. **Navigate**:
 
    ```bash
    cd event-booking-system/Frontend
    ```
 
-2. **Install** dependencies:
+2. **Install deps**:
 
    ```bash
    npm install
    ```
 
-3. **Environment Variables**: create `.env.local`:
-
-   ```env
-   VITE_API_URL=http://localhost:5001/api
-   VITE_BACKEND_BASE_URL=http://localhost:5001
-   ```
-
-4. **Start** dev server:
+3. **Env file**: create `.env.local` pointing to your API.
+4. **Start**:
 
    ```bash
    npm run dev
    ```
 
-5. **App URL**: [http://localhost:8080](http://localhost:8080)
+5. **Open**: [http://localhost:8080](http://localhost:8080)
 
 ---
 
 ## 🧪 Testing
 
-- **Backend**: run `dotnet test` in `Presentation` directory.
-- **Frontend**: run `npm test`.
+- **Backend**: `dotnet test` in Presentation folder.
+- **Frontend**: `npm test`.
 
 ---
 
-## 🐳 Docker Support
+## ☁️ Deployment & Live Demo
 
-Use Docker Compose to launch services:
-
-```bash
-docker-compose up -d
-```
-
-Includes API, SQL Server, and Redis.
-
----
-
-## ☁️ Deployment
-
-### IIS (Backend)
-
-1. `dotnet publish -c Release -o ./publish`
-2. Create IIS site pointing to `./publish`, set app pool to **No Managed Code**.
-
-### Azure App Service (Backend)
-
-1. Create App Service & configure CI/CD (GitHub Actions).
-2. Set app settings (ConnectionStrings, JWT, SMTP).
-
-### Static Hosting (Frontend)
-
-1. `npm run build`
-2. Deploy `dist/` to Netlify, Vercel, S3, etc.
-3. Ensure CORS allows frontend domain.
+- **Frontend** deployed on Vercel
+- **Backend** hosted on MonsterASP.NET
+- **Live Site**: [https://ticket-central.vercel.app/](https://ticket-central.vercel.app/)
 
 ---
 
 ## 🤝 Contributing
 
-1. Fork the repo
-2. Branch: `git checkout -b feature/your-feature`
-3. Commit: `git commit -m "Add feature description"`
-4. Push: `git push origin feature/your-feature`
-5. Open a PR and follow guidelines in `CONTRIBUTING.md`.
+1. Fork repo
+2. Branch: `git checkout -b feature/xyz`
+3. Commit: `git commit -m "Add feature xyz"`
+4. Push: `git push origin feature/xyz`
+5. Open PR and follow guidelines.
 
 ---
 
 ## 📄 License & Contact
 
-**MIT License**. See [LICENSE](LICENSE) for details.
+**MIT License** — see [LICENSE](LICENSE).
 
-Support: **[dev@eventbooking.com](mailto:dev@eventbooking.com)**
+Support: [dev@eventbooking.com](mailto:dev@eventbooking.com)
