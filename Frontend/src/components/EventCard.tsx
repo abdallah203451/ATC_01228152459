@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Event } from "@/services/api";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -33,6 +33,8 @@ const EventCard = ({
   const { isEventBooked, addBookedEvent } = useBookedEvents();
   const [isBooked, setIsBooked] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
+  const location = useLocation();
+  const isBookingsRoute = location.pathname.endsWith("/bookings");
 
   // Check if the event is booked from props or localStorage
   useEffect(() => {
@@ -168,17 +170,19 @@ const EventCard = ({
               {t("events.details")}
             </Button>
 
-            {isBooked ? (
-              <Button
-                className="rounded-full shadow-md bg-red-600 hover:shadow-glow hover:scale-105 transition-all duration-300 z-10"
-                variant="destructive"
-                onClick={() => {
-                  remove(event.id);
-                  onCancelEvent(event.id);
-                }}
-              >
-                {t("events.cancel")}
-              </Button>
+            {isBookingsRoute ? (
+              isBooked1 && (
+                <Button
+                  onClick={() => {
+                    remove(event.id);
+                    onCancelEvent(event.id);
+                  }}
+                  variant="destructive"
+                  className="rounded-full shadow-md hover:shadow-glow hover:scale-105 transition-all duration-300 z-10"
+                >
+                  {t("events.cancel")}
+                </Button>
+              )
             ) : isBooked1 ? (
               <Button
                 disabled
