@@ -1,0 +1,12 @@
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\bin\Debug\net9.0\Core.deps.json
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\bin\Debug\net9.0\Core.dll
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\bin\Debug\net9.0\Core.pdb
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.dll
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\refint\Core.dll
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\Core.pdb
+D:\Areeb Technology Competition\Event Booking System\Backend\Core\obj\Debug\net9.0\ref\Core.dll

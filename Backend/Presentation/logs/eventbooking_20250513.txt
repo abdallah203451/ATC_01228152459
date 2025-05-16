@@ -1,0 +1,1166 @@
+2025-05-13 00:05:19.244 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 00:05:19.267 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 00:05:20.418 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 00:06:10.212 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 00:06:10.238 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 00:06:11.051 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 00:08:06.158 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.5128 ms
+2025-05-13 00:08:06.835 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 660.5249 ms
+2025-05-13 00:58:15.958 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 00:58:16.064 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 00:58:18.886 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 00:58:23.681 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 6.8610 ms
+2025-05-13 00:58:25.473 +03:00 [INF] HTTP POST /api/Category responded 400 in 1764.2835 ms
+2025-05-13 00:58:29.994 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.8296 ms
+2025-05-13 00:58:30.008 +03:00 [INF] HTTP POST /api/Category responded 400 in 9.6960 ms
+2025-05-13 00:58:40.584 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.1082 ms
+2025-05-13 00:58:40.597 +03:00 [INF] HTTP POST /api/Category responded 400 in 9.1164 ms
+2025-05-13 00:58:44.248 +03:00 [INF] HTTP POST /api/Category responded 400 in 1.3208 ms
+2025-05-13 00:58:53.988 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.1465 ms
+2025-05-13 00:58:53.993 +03:00 [INF] HTTP POST /api/Category responded 400 in 1.8815 ms
+2025-05-13 01:03:02.512 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.0891 ms
+2025-05-13 01:03:02.518 +03:00 [INF] HTTP POST /api/Category responded 400 in 2.0659 ms
+2025-05-13 01:03:33.596 +03:00 [ERR] HTTP GET /api/Category responded 500 in 30898.4710 ms
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (10000ms) - Last Connection Exception: UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 4s ago, last-write: 4s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.7.27.49176, command=HMGET, timeout: 10000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-99DF6QGE(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=203,Timers=9), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 4s ago, last-write: 4s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.7.27.49176
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Application.Services.CategoryService.GetAllCategoriesAsync() in D:\Areeb Technology Competition\Event Booking System\Backend\Application\Services\CategoryService.cs:line 35
+   at Presentation.Controllers.CategoryController.GetAllCategories() in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Controllers\CategoryController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-05-13 01:03:33.609 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (10000ms) - Last Connection Exception: UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 4s ago, last-write: 4s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.7.27.49176, command=HMGET, timeout: 10000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-99DF6QGE(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=203,Timers=9), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 4s ago, last-write: 4s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.7.27.49176
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Application.Services.CategoryService.GetAllCategoriesAsync() in D:\Areeb Technology Competition\Event Booking System\Backend\Application\Services\CategoryService.cs:line 35
+   at Presentation.Controllers.CategoryController.GetAllCategories() in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Controllers\CategoryController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-13 01:04:16.887 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.1555 ms
+2025-05-13 01:04:16.908 +03:00 [INF] HTTP POST /api/Category responded 400 in 16.1976 ms
+2025-05-13 01:04:31.047 +03:00 [ERR] HTTP GET /api/Category responded 500 in 13977.9622 ms
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (10000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 10000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-99DF6QGE(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=5,QueuedItems=0,CompletedItems=388,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Application.Services.CategoryService.GetAllCategoriesAsync() in D:\Areeb Technology Competition\Event Booking System\Backend\Application\Services\CategoryService.cs:line 35
+   at Presentation.Controllers.CategoryController.GetAllCategories() in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Controllers\CategoryController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-05-13 01:04:31.056 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (10000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 10000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-99DF6QGE(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=5,QueuedItems=0,CompletedItems=388,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Application.Services.CategoryService.GetAllCategoriesAsync() in D:\Areeb Technology Competition\Event Booking System\Backend\Application\Services\CategoryService.cs:line 35
+   at Presentation.Controllers.CategoryController.GetAllCategories() in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Controllers\CategoryController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-13 01:05:05.737 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.1303 ms
+2025-05-13 01:05:05.746 +03:00 [INF] HTTP POST /api/Category responded 400 in 1.5540 ms
+2025-05-13 01:10:12.532 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.1215 ms
+2025-05-13 01:10:12.550 +03:00 [INF] HTTP POST /api/Category responded 401 in 12.7468 ms
+2025-05-13 01:10:12.555 +03:00 [INF] HTTP OPTIONS /api/auth/refresh-token responded 204 in 0.0725 ms
+2025-05-13 01:10:13.029 +03:00 [INF] HTTP POST /api/auth/refresh-token responded 200 in 462.1754 ms
+2025-05-13 01:10:13.037 +03:00 [INF] HTTP POST /api/Category responded 400 in 1.2426 ms
+2025-05-13 01:10:21.687 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.8825 ms
+2025-05-13 01:10:21.693 +03:00 [INF] HTTP POST /api/Category responded 400 in 1.8215 ms
+2025-05-13 01:12:02.806 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:12:02.831 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:12:03.585 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 01:12:23.615 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 5.6628 ms
+2025-05-13 01:15:09.998 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'EventBookingSystem.dbo.Categories'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d36a9a0a-12a3-4305-94c5-4b6ec871d8a1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'EventBookingSystem.dbo.Categories'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d36a9a0a-12a3-4305-94c5-4b6ec871d8a1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-05-13 01:15:16.839 +03:00 [ERR] HTTP POST /api/Category responded 500 in 173200.5808 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'EventBookingSystem.dbo.Categories'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d36a9a0a-12a3-4305-94c5-4b6ec871d8a1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrastructure.Repositories.CategoryRepository.AddAsync(Category category) in D:\Areeb Technology Competition\Event Booking System\Backend\Infrastructure\Repositories\CategoryRepository.cs:line 32
+   at Application.Services.CategoryService.CreateCategoryAsync(CreateCategoryDTO categoryDto) in D:\Areeb Technology Competition\Event Booking System\Backend\Application\Services\CategoryService.cs:line 93
+   at Presentation.Controllers.CategoryController.CreateCategory(CreateCategoryDTO categoryDto) in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Controllers\CategoryController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-05-13 01:15:16.846 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'EventBookingSystem.dbo.Categories'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d36a9a0a-12a3-4305-94c5-4b6ec871d8a1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrastructure.Repositories.CategoryRepository.AddAsync(Category category) in D:\Areeb Technology Competition\Event Booking System\Backend\Infrastructure\Repositories\CategoryRepository.cs:line 32
+   at Application.Services.CategoryService.CreateCategoryAsync(CreateCategoryDTO categoryDto) in D:\Areeb Technology Competition\Event Booking System\Backend\Application\Services\CategoryService.cs:line 93
+   at Presentation.Controllers.CategoryController.CreateCategory(CreateCategoryDTO categoryDto) in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Controllers\CategoryController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-13 01:24:49.916 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:24:49.934 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:25:09.937 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:25:09.955 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:25:10.055 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:25:10.055 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:27:35.116 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:27:35.134 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:28:22.979 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:28:22.997 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:29:07.092 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:29:07.115 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:29:07.849 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 01:29:17.658 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 3.0663 ms
+2025-05-13 01:31:35.953 +03:00 [ERR] HTTP POST /api/Category responded 500 in 138286.7753 ms
+System.Runtime.CompilerServices.HotReloadException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at Application.DTOs.CategoryDTO.get_Description()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-05-13 01:31:35.960 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Runtime.CompilerServices.HotReloadException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at Application.DTOs.CategoryDTO.get_Description()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-13 01:32:05.912 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:32:05.950 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 01:32:06.803 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 01:32:11.241 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 5.4314 ms
+2025-05-13 01:32:26.281 +03:00 [INF] HTTP POST /api/Category responded 201 in 15026.4261 ms
+2025-05-13 01:32:35.597 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 01:32:35.598 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 01:32:35.878 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 384.5263 ms
+2025-05-13 01:32:36.479 +03:00 [INF] HTTP GET /api/Category responded 200 in 66.4919 ms
+2025-05-13 01:32:44.605 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 12.5630 ms
+2025-05-13 01:32:45.178 +03:00 [INF] HTTP GET /api/Category responded 200 in 15.0667 ms
+2025-05-13 01:35:34.455 +03:00 [INF] HTTP GET /api/Category responded 200 in 67058.7937 ms
+2025-05-13 01:36:07.893 +03:00 [INF] HTTP GET /api/Category responded 200 in 3105.9265 ms
+2025-05-13 01:39:51.176 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1709 ms
+2025-05-13 01:40:18.017 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.3376 ms
+2025-05-13 01:40:23.156 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1908 ms
+2025-05-13 01:40:25.204 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.7651 ms
+2025-05-13 01:41:13.919 +03:00 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 27.1686 ms
+2025-05-13 01:41:14.014 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 89.0538 ms
+2025-05-13 01:41:24.798 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0780 ms
+2025-05-13 01:41:24.909 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 106.2045 ms
+2025-05-13 01:43:56.985 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 32.8355 ms
+2025-05-13 17:27:38.399 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 17:27:38.427 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 17:27:39.852 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 17:28:17.733 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1850.3404 ms
+2025-05-13 17:29:27.210 +03:00 [INF] HTTP POST /api/Category responded 400 in 19803.6531 ms
+2025-05-13 17:30:38.551 +03:00 [INF] HTTP POST /api/Category responded 400 in 20.9386 ms
+2025-05-13 17:30:41.786 +03:00 [INF] HTTP POST /api/Category responded 400 in 15.6188 ms
+2025-05-13 17:31:44.147 +03:00 [INF] HTTP POST /api/Category responded 400 in 26730.0819 ms
+2025-05-13 17:33:13.685 +03:00 [INF] HTTP POST /api/Category responded 201 in 58608.1281 ms
+2025-05-13 17:34:01.233 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 17:34:01.234 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 17:34:01.640 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 459.4350 ms
+2025-05-13 17:34:21.669 +03:00 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 1.4656 ms
+2025-05-13 17:34:21.678 +03:00 [INF] HTTP POST /api/auth/logout responded 401 in 6.7722 ms
+2025-05-13 17:34:21.845 +03:00 [INF] HTTP OPTIONS /api/auth/refresh-token responded 204 in 0.0743 ms
+2025-05-13 17:34:21.881 +03:00 [INF] HTTP POST /api/auth/refresh-token responded 400 in 34.0099 ms
+2025-05-13 17:34:28.426 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0912 ms
+2025-05-13 17:34:28.540 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 110.5758 ms
+2025-05-13 17:34:28.570 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.3270 ms
+2025-05-13 17:34:32.321 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 57.4119 ms
+2025-05-13 17:34:32.340 +03:00 [INF] HTTP GET /api/Category responded 200 in 76.9259 ms
+2025-05-13 17:34:34.390 +03:00 [INF] HTTP OPTIONS /api/bookings responded 204 in 0.0991 ms
+2025-05-13 17:34:34.429 +03:00 [INF] HTTP GET /api/bookings responded 200 in 36.4154 ms
+2025-05-13 17:34:38.031 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.7987 ms
+2025-05-13 17:34:50.904 +03:00 [INF] HTTP OPTIONS /api/Category/4 responded 204 in 0.0737 ms
+2025-05-13 17:34:51.030 +03:00 [INF] HTTP DELETE /api/Category/4 responded 204 in 123.8805 ms
+2025-05-13 17:35:04.783 +03:00 [INF] HTTP OPTIONS /api/Category/4 responded 204 in 0.1096 ms
+2025-05-13 17:35:54.791 +03:00 [INF] HTTP DELETE /api/Category/4 responded 404 in 50006.3148 ms
+2025-05-13 17:40:35.701 +03:00 [INF] HTTP GET /api/Category responded 200 in 257681.9331 ms
+2025-05-13 17:40:46.912 +03:00 [INF] HTTP GET /api/Category responded 200 in 5680.1454 ms
+2025-05-13 17:40:53.129 +03:00 [INF] HTTP OPTIONS /api/Category/1003 responded 204 in 0.0958 ms
+2025-05-13 17:41:49.834 +03:00 [INF] HTTP DELETE /api/Category/1003 responded 204 in 56701.6418 ms
+2025-05-13 17:41:55.577 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.8476 ms
+2025-05-13 17:41:58.996 +03:00 [INF] HTTP OPTIONS /api/Category/1004 responded 204 in 0.1801 ms
+2025-05-13 17:42:14.775 +03:00 [INF] HTTP GET /api/Category responded 200 in 28.4433 ms
+2025-05-13 17:42:14.785 +03:00 [INF] HTTP DELETE /api/Category/1004 responded 204 in 15786.8562 ms
+2025-05-13 17:42:19.936 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.2638 ms
+2025-05-13 17:42:22.877 +03:00 [INF] HTTP GET /api/Tags responded 200 in 31.5848 ms
+2025-05-13 17:42:47.766 +03:00 [INF] HTTP GET /api/Tags responded 200 in 34.5306 ms
+2025-05-13 17:42:51.273 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.3117 ms
+2025-05-13 17:43:00.304 +03:00 [INF] HTTP OPTIONS /api/Category/3 responded 204 in 0.1432 ms
+2025-05-13 17:43:00.341 +03:00 [INF] HTTP PUT /api/Category/3 responded 200 in 35.5427 ms
+2025-05-13 17:43:20.232 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.7618 ms
+2025-05-13 17:43:22.402 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.8212 ms
+2025-05-13 17:43:46.995 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.6803 ms
+2025-05-13 17:44:30.006 +03:00 [INF] HTTP OPTIONS /api/Tags responded 204 in 0.0601 ms
+2025-05-13 17:44:30.118 +03:00 [INF] HTTP POST /api/Tags responded 201 in 109.0326 ms
+2025-05-13 17:44:37.459 +03:00 [INF] HTTP OPTIONS /api/Tags/1 responded 204 in 0.1729 ms
+2025-05-13 17:44:37.504 +03:00 [INF] HTTP PUT /api/Tags/1 responded 200 in 43.3724 ms
+2025-05-13 17:44:50.834 +03:00 [INF] HTTP OPTIONS /api/Tags/1 responded 204 in 0.0985 ms
+2025-05-13 17:44:50.843 +03:00 [INF] HTTP PUT /api/Tags/1 responded 200 in 6.3327 ms
+2025-05-13 17:44:54.232 +03:00 [INF] HTTP OPTIONS /api/Tags/1 responded 204 in 0.0828 ms
+2025-05-13 17:44:54.332 +03:00 [INF] HTTP DELETE /api/Tags/1 responded 200 in 99.0518 ms
+2025-05-13 17:44:58.625 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.6585 ms
+2025-05-13 17:45:00.753 +03:00 [INF] HTTP OPTIONS /api/Category/3 responded 204 in 0.0716 ms
+2025-05-13 17:45:00.766 +03:00 [INF] HTTP DELETE /api/Category/3 responded 204 in 10.2248 ms
+2025-05-13 17:45:04.556 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.0400 ms
+2025-05-13 17:45:20.981 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.2287 ms
+2025-05-13 17:45:24.132 +03:00 [INF] HTTP POST /api/Category responded 201 in 3146.5860 ms
+2025-05-13 17:45:35.359 +03:00 [INF] HTTP OPTIONS /api/Category/1005 responded 204 in 0.0657 ms
+2025-05-13 17:47:17.905 +03:00 [INF] HTTP DELETE /api/Category/1005 responded 204 in 102541.5075 ms
+2025-05-13 17:48:06.523 +03:00 [INF] HTTP GET /api/Category responded 200 in 15.2973 ms
+2025-05-13 17:48:09.068 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.0537 ms
+2025-05-13 17:48:09.086 +03:00 [INF] HTTP POST /api/Category responded 201 in 16.9334 ms
+2025-05-13 17:48:11.226 +03:00 [INF] HTTP OPTIONS /api/Category/1006 responded 204 in 0.0503 ms
+2025-05-13 17:48:14.280 +03:00 [INF] HTTP DELETE /api/Category/1006 responded 200 in 3052.0327 ms
+2025-05-13 17:48:25.260 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 27.4830 ms
+2025-05-13 17:48:30.600 +03:00 [INF] HTTP GET /api/Category responded 200 in 12.7118 ms
+2025-05-13 17:48:30.608 +03:00 [INF] HTTP GET /api/Tags responded 200 in 20.7982 ms
+2025-05-13 17:49:21.637 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.0595 ms
+2025-05-13 17:49:23.756 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.6590 ms
+2025-05-13 17:49:24.894 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.9868 ms
+2025-05-13 17:50:03.441 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.2945 ms
+2025-05-13 17:50:03.450 +03:00 [INF] HTTP POST /api/Category responded 201 in 7.5448 ms
+2025-05-13 17:50:05.861 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.3166 ms
+2025-05-13 17:50:16.320 +03:00 [INF] HTTP OPTIONS /api/Tags responded 204 in 0.0392 ms
+2025-05-13 17:50:16.336 +03:00 [INF] HTTP POST /api/Tags responded 201 in 13.8906 ms
+2025-05-13 17:50:44.042 +03:00 [INF] HTTP OPTIONS /api/Tags responded 204 in 0.0296 ms
+2025-05-13 17:50:44.084 +03:00 [INF] HTTP POST /api/Tags responded 201 in 40.4962 ms
+2025-05-13 17:50:46.149 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.0504 ms
+2025-05-13 17:50:49.583 +03:00 [INF] HTTP GET /api/Tags responded 200 in 10.2005 ms
+2025-05-13 17:50:49.594 +03:00 [INF] HTTP GET /api/Category responded 200 in 21.5934 ms
+2025-05-13 17:50:50.227 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.9595 ms
+2025-05-13 17:50:51.015 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.7621 ms
+2025-05-13 17:50:51.015 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.0288 ms
+2025-05-13 17:50:58.131 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 7.5955 ms
+2025-05-13 17:51:32.659 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.0092 ms
+2025-05-13 17:51:32.686 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 30.1648 ms
+2025-05-13 17:51:35.115 +03:00 [INF] HTTP OPTIONS /api/bookings responded 204 in 0.0338 ms
+2025-05-13 17:51:35.137 +03:00 [INF] HTTP GET /api/bookings responded 200 in 17.1647 ms
+2025-05-13 17:52:06.194 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.2041 ms
+2025-05-13 17:52:09.105 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.6859 ms
+2025-05-13 17:56:47.630 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.9446 ms
+2025-05-13 17:56:53.379 +03:00 [INF] HTTP OPTIONS /api/Tags responded 204 in 0.0888 ms
+2025-05-13 17:56:53.414 +03:00 [INF] HTTP POST /api/Tags responded 201 in 32.9907 ms
+2025-05-13 17:56:56.451 +03:00 [INF] HTTP POST /api/Tags responded 201 in 6.9100 ms
+2025-05-13 17:57:17.231 +03:00 [INF] HTTP OPTIONS /api/Tags responded 204 in 0.0792 ms
+2025-05-13 17:57:17.287 +03:00 [INF] HTTP POST /api/Tags responded 201 in 54.0490 ms
+2025-05-13 17:57:28.090 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.7656 ms
+2025-05-13 17:57:30.343 +03:00 [INF] HTTP OPTIONS /api/Category/1007 responded 204 in 0.0272 ms
+2025-05-13 17:57:30.373 +03:00 [INF] HTTP DELETE /api/Category/1007 responded 200 in 28.2820 ms
+2025-05-13 17:57:32.145 +03:00 [INF] HTTP OPTIONS /api/Category responded 204 in 0.0247 ms
+2025-05-13 17:57:32.153 +03:00 [INF] HTTP POST /api/Category responded 201 in 7.0304 ms
+2025-05-13 17:57:59.687 +03:00 [INF] HTTP GET /api/Tags responded 200 in 13.4408 ms
+2025-05-13 17:58:03.925 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 6.7425 ms
+2025-05-13 17:58:05.034 +03:00 [INF] HTTP GET /api/Tags responded 200 in 7.4331 ms
+2025-05-13 17:58:05.037 +03:00 [INF] HTTP GET /api/Category responded 200 in 10.9501 ms
+2025-05-13 18:00:47.103 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.6155 ms
+2025-05-13 18:00:47.104 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.7528 ms
+2025-05-13 18:00:54.443 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.7917 ms
+2025-05-13 18:00:55.986 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.5240 ms
+2025-05-13 18:00:56.806 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8762 ms
+2025-05-13 18:00:56.807 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.5486 ms
+2025-05-13 18:01:00.409 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4818 ms
+2025-05-13 18:01:00.409 +03:00 [INF] HTTP GET /api/Tags responded 200 in 0.9368 ms
+2025-05-13 18:01:03.827 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.2285 ms
+2025-05-13 18:01:03.828 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.7703 ms
+2025-05-13 18:01:06.475 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3377 ms
+2025-05-13 18:01:06.475 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3377 ms
+2025-05-13 18:01:18.639 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.0669 ms
+2025-05-13 18:01:18.640 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.0438 ms
+2025-05-13 18:01:32.545 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.0494 ms
+2025-05-13 18:01:33.996 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.6072 ms
+2025-05-13 18:01:33.996 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.5826 ms
+2025-05-13 18:01:38.244 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.5878 ms
+2025-05-13 18:01:38.244 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5865 ms
+2025-05-13 18:01:41.989 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.8447 ms
+2025-05-13 18:01:41.990 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.5247 ms
+2025-05-13 18:06:31.146 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.3006 ms
+2025-05-13 18:06:31.147 +03:00 [INF] HTTP GET /api/Tags responded 200 in 52.7994 ms
+2025-05-13 18:06:41.065 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.2293 ms
+2025-05-13 18:06:41.065 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.3114 ms
+2025-05-13 18:06:42.080 +03:00 [INF] HTTP GET /api/Tags responded 200 in 9.4258 ms
+2025-05-13 18:06:42.083 +03:00 [INF] HTTP GET /api/Category responded 200 in 12.3446 ms
+2025-05-13 18:08:45.067 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.2895 ms
+2025-05-13 18:08:45.097 +03:00 [INF] HTTP GET /api/Category responded 200 in 37.8086 ms
+2025-05-13 18:09:06.071 +03:00 [INF] HTTP GET /api/Category responded 200 in 9.8827 ms
+2025-05-13 18:09:06.071 +03:00 [INF] HTTP GET /api/Tags responded 200 in 9.2777 ms
+2025-05-13 18:09:16.117 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 21.3238 ms
+2025-05-13 18:09:17.156 +03:00 [INF] HTTP GET /api/Tags responded 200 in 6.1798 ms
+2025-05-13 18:09:17.157 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.2324 ms
+2025-05-13 18:09:20.150 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4351 ms
+2025-05-13 18:09:20.150 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4409 ms
+2025-05-13 18:09:23.287 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.1392 ms
+2025-05-13 18:09:23.287 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.1431 ms
+2025-05-13 18:09:40.002 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.6546 ms
+2025-05-13 18:09:40.002 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4892 ms
+2025-05-13 18:20:50.124 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.2509 ms
+2025-05-13 18:20:50.220 +03:00 [INF] HTTP GET /api/Category responded 200 in 126.3867 ms
+2025-05-13 18:20:51.074 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.4344 ms
+2025-05-13 18:20:51.074 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.9711 ms
+2025-05-13 18:20:58.128 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.1167 ms
+2025-05-13 18:20:58.129 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.4738 ms
+2025-05-13 18:20:58.934 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 19.5576 ms
+2025-05-13 18:21:01.914 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.2375 ms
+2025-05-13 18:21:03.458 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 12.9618 ms
+2025-05-13 18:21:04.486 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.9283 ms
+2025-05-13 18:21:04.488 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3280 ms
+2025-05-13 18:21:06.747 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1814 ms
+2025-05-13 18:21:06.748 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.4008 ms
+2025-05-13 18:21:11.070 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.7095 ms
+2025-05-13 18:21:11.070 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.2725 ms
+2025-05-13 18:21:19.071 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.2191 ms
+2025-05-13 18:21:19.072 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.9951 ms
+2025-05-13 18:23:35.084 +03:00 [INF] HTTP GET /api/Tags responded 200 in 6.1046 ms
+2025-05-13 18:23:35.085 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.0683 ms
+2025-05-13 18:25:22.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.6029 ms
+2025-05-13 18:25:22.080 +03:00 [INF] HTTP GET /api/Tags responded 200 in 6.2845 ms
+2025-05-13 18:25:41.060 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.8127 ms
+2025-05-13 18:25:41.062 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.5076 ms
+2025-05-13 18:25:48.069 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.6240 ms
+2025-05-13 18:25:48.070 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.3365 ms
+2025-05-13 18:25:50.788 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.9207 ms
+2025-05-13 18:25:55.033 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.6926 ms
+2025-05-13 18:25:55.988 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.5984 ms
+2025-05-13 18:25:55.989 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.4503 ms
+2025-05-13 18:25:59.889 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.2788 ms
+2025-05-13 18:25:59.889 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.2850 ms
+2025-05-13 18:26:06.229 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.7577 ms
+2025-05-13 18:26:06.230 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.4556 ms
+2025-05-13 18:26:08.642 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3407 ms
+2025-05-13 18:26:08.642 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3415 ms
+2025-05-13 18:29:30.117 +03:00 [INF] HTTP GET /api/Category responded 200 in 31.3015 ms
+2025-05-13 18:29:30.163 +03:00 [INF] HTTP GET /api/Tags responded 200 in 49.1434 ms
+2025-05-13 18:29:33.074 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.3027 ms
+2025-05-13 18:29:33.077 +03:00 [INF] HTTP GET /api/Tags responded 200 in 8.7200 ms
+2025-05-13 18:29:39.064 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.7800 ms
+2025-05-13 18:29:39.065 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.9649 ms
+2025-05-13 18:29:42.988 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4990 ms
+2025-05-13 18:29:42.988 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.5315 ms
+2025-05-13 18:30:25.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.2857 ms
+2025-05-13 18:30:25.081 +03:00 [INF] HTTP GET /api/Category responded 200 in 11.0051 ms
+2025-05-13 18:31:00.129 +03:00 [INF] HTTP GET /api/Tags responded 200 in 6.0066 ms
+2025-05-13 18:31:00.173 +03:00 [INF] HTTP GET /api/Category responded 200 in 45.7477 ms
+2025-05-13 18:31:01.091 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.3067 ms
+2025-05-13 18:31:01.093 +03:00 [INF] HTTP GET /api/Tags responded 200 in 8.3837 ms
+2025-05-13 18:31:15.940 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 16.2672 ms
+2025-05-13 18:31:21.171 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5533 ms
+2025-05-13 18:31:21.786 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 7.4718 ms
+2025-05-13 18:31:22.606 +03:00 [INF] HTTP GET /api/Tags responded 200 in 0.9359 ms
+2025-05-13 18:31:22.607 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3859 ms
+2025-05-13 18:31:27.038 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.2778 ms
+2025-05-13 18:31:27.039 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.3639 ms
+2025-05-13 18:33:33.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.6056 ms
+2025-05-13 18:33:33.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.4502 ms
+2025-05-13 18:35:39.077 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.8172 ms
+2025-05-13 18:35:39.078 +03:00 [INF] HTTP GET /api/Tags responded 200 in 6.2027 ms
+2025-05-13 18:35:43.480 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4357 ms
+2025-05-13 18:35:43.480 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4345 ms
+2025-05-13 18:35:50.111 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.9869 ms
+2025-05-13 18:35:50.115 +03:00 [INF] HTTP GET /api/Tags responded 200 in 11.7427 ms
+2025-05-13 18:35:57.062 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1052 ms
+2025-05-13 18:35:57.070 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8398 ms
+2025-05-13 18:36:23.081 +03:00 [INF] HTTP GET /api/Category responded 200 in 13.0339 ms
+2025-05-13 18:36:23.083 +03:00 [INF] HTTP GET /api/Tags responded 200 in 8.4218 ms
+2025-05-13 18:39:03.150 +03:00 [INF] HTTP GET /api/Category responded 200 in 29.2578 ms
+2025-05-13 18:39:03.154 +03:00 [INF] HTTP GET /api/Tags responded 200 in 7.0552 ms
+2025-05-13 18:39:26.392 +03:00 [INF] HTTP GET /api/Category responded 200 in 29.1179 ms
+2025-05-13 18:39:26.392 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.6111 ms
+2025-05-13 18:41:26.144 +03:00 [INF] HTTP GET /api/Tags responded 200 in 30.8492 ms
+2025-05-13 18:41:26.164 +03:00 [INF] HTTP GET /api/Category responded 200 in 56.6530 ms
+2025-05-13 18:42:00.766 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 27.8802 ms
+2025-05-13 18:42:04.817 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.9132 ms
+2025-05-13 18:42:04.821 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.0938 ms
+2025-05-13 18:42:07.353 +03:00 [INF] HTTP OPTIONS /api/bookings responded 204 in 0.1003 ms
+2025-05-13 18:42:07.361 +03:00 [INF] HTTP GET /api/bookings responded 401 in 4.0007 ms
+2025-05-13 18:42:07.372 +03:00 [INF] HTTP OPTIONS /api/auth/refresh-token responded 204 in 0.0420 ms
+2025-05-13 18:42:07.464 +03:00 [INF] HTTP POST /api/auth/refresh-token responded 200 in 87.6543 ms
+2025-05-13 18:42:07.479 +03:00 [INF] HTTP GET /api/bookings responded 200 in 13.3657 ms
+2025-05-13 18:42:10.323 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.1828 ms
+2025-05-13 18:42:13.676 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 7.5738 ms
+2025-05-13 18:42:14.756 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.8183 ms
+2025-05-13 18:42:14.757 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.8360 ms
+2025-05-13 18:43:16.066 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.5213 ms
+2025-05-13 18:43:16.066 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.2170 ms
+2025-05-13 18:43:22.275 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4526 ms
+2025-05-13 18:43:22.275 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.1879 ms
+2025-05-13 18:43:29.976 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.6297 ms
+2025-05-13 18:43:29.976 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.6197 ms
+2025-05-13 18:43:34.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 8.0661 ms
+2025-05-13 18:43:34.082 +03:00 [INF] HTTP GET /api/Tags responded 200 in 9.4763 ms
+2025-05-13 18:43:55.078 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8415 ms
+2025-05-13 18:43:55.082 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4468 ms
+2025-05-13 18:44:11.094 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8921 ms
+2025-05-13 18:44:11.094 +03:00 [INF] HTTP GET /api/Category responded 200 in 28.4062 ms
+2025-05-13 18:44:13.061 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.0965 ms
+2025-05-13 18:44:13.063 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.9984 ms
+2025-05-13 18:44:14.536 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.3174 ms
+2025-05-13 18:44:14.929 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.1882 ms
+2025-05-13 18:44:15.787 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.6404 ms
+2025-05-13 18:44:16.812 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8926 ms
+2025-05-13 18:44:16.813 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.5108 ms
+2025-05-13 18:44:20.273 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.4721 ms
+2025-05-13 18:44:20.274 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.4187 ms
+2025-05-13 18:44:46.063 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.7598 ms
+2025-05-13 18:44:46.063 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.7826 ms
+2025-05-13 18:44:46.802 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.7358 ms
+2025-05-13 18:44:46.803 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.9196 ms
+2025-05-13 18:44:52.818 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.7693 ms
+2025-05-13 18:44:52.819 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.7931 ms
+2025-05-13 18:44:57.065 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.9596 ms
+2025-05-13 18:44:57.065 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.8604 ms
+2025-05-13 18:45:00.062 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3591 ms
+2025-05-13 18:45:00.062 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3758 ms
+2025-05-13 18:45:01.062 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8950 ms
+2025-05-13 18:45:01.062 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.9086 ms
+2025-05-13 18:45:04.689 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.6821 ms
+2025-05-13 18:45:04.689 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.7589 ms
+2025-05-13 18:45:08.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.9893 ms
+2025-05-13 18:45:08.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.1854 ms
+2025-05-13 18:45:10.071 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8367 ms
+2025-05-13 18:45:10.071 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.5479 ms
+2025-05-13 18:45:14.067 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.4801 ms
+2025-05-13 18:45:14.067 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.3973 ms
+2025-05-13 18:46:34.178 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.9462 ms
+2025-05-13 18:46:36.093 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.5115 ms
+2025-05-13 18:46:36.093 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.7713 ms
+2025-05-13 18:48:14.229 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 69.8150 ms
+2025-05-13 18:48:15.757 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1804 ms
+2025-05-13 18:48:19.877 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.1927 ms
+2025-05-13 18:49:16.181 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.9003 ms
+2025-05-13 18:49:36.213 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.7848 ms
+2025-05-13 18:49:42.226 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3333 ms
+2025-05-13 18:49:42.226 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.7285 ms
+2025-05-13 18:49:51.015 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.1626 ms
+2025-05-13 18:49:51.016 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.1158 ms
+2025-05-13 18:49:59.827 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5253 ms
+2025-05-13 18:49:59.830 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4128 ms
+2025-05-13 18:51:41.999 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.6095 ms
+2025-05-13 18:52:02.950 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.6539 ms
+2025-05-13 18:52:09.536 +03:00 [INF] HTTP GET /api/Category responded 200 in 15.5490 ms
+2025-05-13 18:52:12.450 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.9684 ms
+2025-05-13 18:53:35.381 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3759 ms
+2025-05-13 18:53:35.381 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.9306 ms
+2025-05-13 18:53:40.863 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.3692 ms
+2025-05-13 18:53:40.864 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.8526 ms
+2025-05-13 18:53:47.029 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.1164 ms
+2025-05-13 18:53:47.030 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.4522 ms
+2025-05-13 18:53:51.180 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.6774 ms
+2025-05-13 18:53:51.180 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.6758 ms
+2025-05-13 18:54:57.075 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.4272 ms
+2025-05-13 18:57:08.776 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 53.0605 ms
+2025-05-13 18:57:12.441 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 342.1344 ms
+2025-05-13 18:57:13.469 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4574 ms
+2025-05-13 18:57:44.072 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.7156 ms
+2025-05-13 18:57:46.066 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5279 ms
+2025-05-13 18:58:32.068 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.5495 ms
+2025-05-13 18:58:35.948 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.0789 ms
+2025-05-13 18:58:42.948 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.7087 ms
+2025-05-13 18:58:43.977 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5287 ms
+2025-05-13 18:58:51.101 +03:00 [INF] HTTP GET /api/Category responded 200 in 29.9134 ms
+2025-05-13 18:58:52.063 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8463 ms
+2025-05-13 18:58:55.063 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.0119 ms
+2025-05-13 18:58:58.068 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.1394 ms
+2025-05-13 18:58:58.068 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.0945 ms
+2025-05-13 18:59:00.106 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.0877 ms
+2025-05-13 18:59:00.106 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5650 ms
+2025-05-13 18:59:04.386 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.3926 ms
+2025-05-13 18:59:06.237 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.7576 ms
+2025-05-13 18:59:06.237 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.2353 ms
+2025-05-13 19:00:31.126 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.2580 ms
+2025-05-13 19:00:31.167 +03:00 [INF] HTTP GET /api/Tags responded 200 in 27.1207 ms
+2025-05-13 19:00:31.848 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.5100 ms
+2025-05-13 19:00:31.849 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.9462 ms
+2025-05-13 19:00:34.315 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.9740 ms
+2025-05-13 19:00:34.319 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.4705 ms
+2025-05-13 19:00:38.072 +03:00 [INF] HTTP GET /api/Category responded 200 in 8.0898 ms
+2025-05-13 19:00:38.073 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.8089 ms
+2025-05-13 19:00:48.943 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.7458 ms
+2025-05-13 19:01:43.078 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.4986 ms
+2025-05-13 19:01:43.079 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.3779 ms
+2025-05-13 19:02:11.069 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.9584 ms
+2025-05-13 19:02:11.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 16.7157 ms
+2025-05-13 19:02:15.694 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 15.8954 ms
+2025-05-13 19:02:16.513 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.6460 ms
+2025-05-13 19:02:16.514 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.3688 ms
+2025-05-13 19:02:23.104 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.2660 ms
+2025-05-13 19:02:23.105 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.2027 ms
+2025-05-13 19:02:23.106 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.0017 ms
+2025-05-13 19:02:23.106 +03:00 [INF] HTTP GET /api/Tags responded 200 in 0.7709 ms
+2025-05-13 19:02:31.115 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.3043 ms
+2025-05-13 19:02:31.116 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.8653 ms
+2025-05-13 19:02:31.118 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4990 ms
+2025-05-13 19:02:31.119 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.7301 ms
+2025-05-13 19:02:33.069 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.0136 ms
+2025-05-13 19:02:33.069 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.0165 ms
+2025-05-13 19:02:33.075 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.8033 ms
+2025-05-13 19:02:33.075 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8136 ms
+2025-05-13 19:02:38.151 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.0267 ms
+2025-05-13 19:02:38.151 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.7985 ms
+2025-05-13 19:02:38.161 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.2108 ms
+2025-05-13 19:02:38.161 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.3016 ms
+2025-05-13 19:02:58.064 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.5870 ms
+2025-05-13 19:02:58.064 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8422 ms
+2025-05-13 19:02:58.078 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.6726 ms
+2025-05-13 19:02:58.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 10.7516 ms
+2025-05-13 19:03:07.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.9680 ms
+2025-05-13 19:03:07.080 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.9130 ms
+2025-05-13 19:03:07.085 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.3766 ms
+2025-05-13 19:03:07.085 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.9400 ms
+2025-05-13 19:03:10.073 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.8135 ms
+2025-05-13 19:03:10.076 +03:00 [INF] HTTP GET /api/Tags responded 200 in 10.5629 ms
+2025-05-13 19:03:10.078 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.8038 ms
+2025-05-13 19:03:10.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.5994 ms
+2025-05-13 19:03:12.064 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8319 ms
+2025-05-13 19:03:12.064 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.8402 ms
+2025-05-13 19:03:12.092 +03:00 [INF] HTTP GET /api/Tags responded 200 in 24.5175 ms
+2025-05-13 19:03:12.093 +03:00 [INF] HTTP GET /api/Category responded 200 in 25.8271 ms
+2025-05-13 19:03:15.768 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.9307 ms
+2025-05-13 19:03:17.507 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.3789 ms
+2025-05-13 19:03:17.508 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.9342 ms
+2025-05-13 19:04:08.107 +03:00 [INF] HTTP GET /api/Category responded 200 in 25.5087 ms
+2025-05-13 19:04:08.107 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.1206 ms
+2025-05-13 19:04:08.111 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.4043 ms
+2025-05-13 19:04:08.111 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4049 ms
+2025-05-13 19:04:14.733 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.8982 ms
+2025-05-13 19:04:14.734 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.9213 ms
+2025-05-13 19:04:19.094 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.3023 ms
+2025-05-13 19:04:19.094 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.2610 ms
+2025-05-13 19:04:19.096 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3267 ms
+2025-05-13 19:04:19.096 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3250 ms
+2025-05-13 19:05:24.102 +03:00 [INF] HTTP GET /api/Category responded 200 in 11.7498 ms
+2025-05-13 19:05:24.105 +03:00 [INF] HTTP GET /api/Tags responded 200 in 13.0339 ms
+2025-05-13 19:05:24.110 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.3475 ms
+2025-05-13 19:05:24.112 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.9459 ms
+2025-05-13 19:05:36.076 +03:00 [INF] HTTP GET /api/Tags responded 200 in 7.0834 ms
+2025-05-13 19:05:36.078 +03:00 [INF] HTTP GET /api/Category responded 200 in 9.0049 ms
+2025-05-13 19:05:36.082 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.3696 ms
+2025-05-13 19:05:36.083 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.6203 ms
+2025-05-13 19:05:40.792 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3900 ms
+2025-05-13 19:05:40.792 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3901 ms
+2025-05-13 19:05:48.095 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.2715 ms
+2025-05-13 19:05:48.096 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.9682 ms
+2025-05-13 19:05:48.097 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.0983 ms
+2025-05-13 19:05:48.097 +03:00 [INF] HTTP GET /api/Tags responded 200 in 0.7314 ms
+2025-05-13 19:06:16.071 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.3900 ms
+2025-05-13 19:06:16.072 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.5854 ms
+2025-05-13 19:06:16.076 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.6291 ms
+2025-05-13 19:06:16.077 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.2367 ms
+2025-05-13 19:06:19.073 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.6023 ms
+2025-05-13 19:06:19.078 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.7882 ms
+2025-05-13 19:06:19.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.6852 ms
+2025-05-13 19:06:19.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.7977 ms
+2025-05-13 19:06:20.074 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.2445 ms
+2025-05-13 19:06:20.074 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.3787 ms
+2025-05-13 19:06:20.081 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1007 ms
+2025-05-13 19:06:20.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.1632 ms
+2025-05-13 19:07:15.065 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.8955 ms
+2025-05-13 19:07:15.072 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.2765 ms
+2025-05-13 19:07:15.073 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.2547 ms
+2025-05-13 19:07:15.075 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.5837 ms
+2025-05-13 19:07:17.066 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.3055 ms
+2025-05-13 19:07:17.067 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.0770 ms
+2025-05-13 19:07:17.072 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.0335 ms
+2025-05-13 19:07:17.073 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.6885 ms
+2025-05-13 19:07:22.274 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.4616 ms
+2025-05-13 19:07:22.275 +03:00 [INF] HTTP GET /api/Tags responded 200 in 4.2769 ms
+2025-05-13 19:07:24.044 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.9373 ms
+2025-05-13 19:07:24.044 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.9182 ms
+2025-05-13 19:07:37.628 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.7741 ms
+2025-05-13 19:07:37.629 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.7444 ms
+2025-05-13 19:10:10.152 +03:00 [INF] HTTP GET /api/Tags responded 200 in 45.8154 ms
+2025-05-13 19:10:10.152 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.8845 ms
+2025-05-13 19:10:10.158 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.9049 ms
+2025-05-13 19:10:10.159 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.8914 ms
+2025-05-13 19:10:11.060 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3028 ms
+2025-05-13 19:10:11.065 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4338 ms
+2025-05-13 19:10:11.070 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.0549 ms
+2025-05-13 19:10:11.070 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3132 ms
+2025-05-13 19:10:41.101 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.5135 ms
+2025-05-13 19:10:41.104 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.4372 ms
+2025-05-13 19:10:41.138 +03:00 [INF] HTTP GET /api/Category responded 200 in 29.2789 ms
+2025-05-13 19:10:41.139 +03:00 [INF] HTTP GET /api/Tags responded 200 in 26.8485 ms
+2025-05-13 19:10:42.070 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.9938 ms
+2025-05-13 19:10:42.072 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8888 ms
+2025-05-13 19:10:42.080 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.6297 ms
+2025-05-13 19:10:42.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.0670 ms
+2025-05-13 19:11:17.246 +03:00 [INF] HTTP GET /api/Tags responded 200 in 5.9943 ms
+2025-05-13 19:11:17.246 +03:00 [INF] HTTP GET /api/Category responded 200 in 1.3649 ms
+2025-05-13 19:11:18.092 +03:00 [INF] HTTP GET /api/Tags responded 200 in 25.0948 ms
+2025-05-13 19:11:18.094 +03:00 [INF] HTTP GET /api/Category responded 200 in 27.2539 ms
+2025-05-13 19:14:12.889 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0478 ms
+2025-05-13 19:26:01.582 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 19:26:01.605 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 19:26:02.428 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 19:26:05.711 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 19:26:05.714 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 19:26:05.948 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 852.8639 ms
+2025-05-13 19:26:07.274 +03:00 [INF] HTTP GET /api/Tags responded 200 in 73.3557 ms
+2025-05-13 19:26:07.347 +03:00 [INF] HTTP GET /api/Category responded 200 in 148.5144 ms
+2025-05-13 19:29:45.428 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 1.3784 ms
+2025-05-13 19:36:14.182 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 19:36:14.201 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 19:36:14.695 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-13 19:36:15.451 +03:00 [INF] HTTP POST /api/events responded 201 in 718.1449 ms
+2025-05-13 19:36:15.588 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 19:36:15.588 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 19:36:15.671 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 111.0049 ms
+2025-05-13 19:37:32.802 +03:00 [INF] HTTP GET /api/Tags responded 200 in 133.9278 ms
+2025-05-13 19:37:32.825 +03:00 [INF] HTTP GET /api/Category responded 200 in 157.4358 ms
+2025-05-13 19:40:21.584 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.7240 ms
+2025-05-13 19:40:21.626 +03:00 [INF] HTTP POST /api/events responded 400 in 39.0300 ms
+2025-05-13 19:48:34.191 +03:00 [INF] HTTP GET /api/Tags responded 200 in 40.4221 ms
+2025-05-13 19:48:34.233 +03:00 [INF] HTTP GET /api/Category responded 200 in 83.3331 ms
+2025-05-13 19:50:20.072 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.8442 ms
+2025-05-13 19:50:20.082 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.4817 ms
+2025-05-13 19:53:32.159 +03:00 [INF] HTTP GET /api/Category responded 200 in 8.5348 ms
+2025-05-13 19:53:32.176 +03:00 [INF] HTTP GET /api/Tags responded 200 in 26.0336 ms
+2025-05-13 19:53:43.102 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.0210 ms
+2025-05-13 19:53:43.113 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.6908 ms
+2025-05-13 19:55:25.845 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.1059 ms
+2025-05-13 19:55:25.863 +03:00 [INF] HTTP POST /api/events responded 401 in 12.4106 ms
+2025-05-13 19:55:26.127 +03:00 [INF] HTTP GET /api/Category responded 200 in 23.9221 ms
+2025-05-13 19:55:26.148 +03:00 [INF] HTTP GET /api/Tags responded 200 in 44.5339 ms
+2025-05-13 19:55:54.807 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0761 ms
+2025-05-13 19:55:54.812 +03:00 [INF] HTTP POST /api/events responded 401 in 1.6824 ms
+2025-05-13 19:57:13.117 +03:00 [INF] HTTP GET /api/Category responded 200 in 29.7711 ms
+2025-05-13 19:57:13.117 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.3071 ms
+2025-05-13 19:57:15.175 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.7321 ms
+2025-05-13 19:57:15.182 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.4514 ms
+2025-05-13 19:57:16.104 +03:00 [INF] HTTP GET /api/Category responded 200 in 5.8798 ms
+2025-05-13 19:57:16.106 +03:00 [INF] HTTP GET /api/Tags responded 200 in 8.0016 ms
+2025-05-13 20:00:40.335 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.1066 ms
+2025-05-13 20:00:40.339 +03:00 [INF] HTTP POST /api/events responded 401 in 0.7816 ms
+2025-05-13 20:01:09.303 +03:00 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 24.0854 ms
+2025-05-13 20:01:09.332 +03:00 [INF] HTTP POST /api/auth/logout responded 401 in 1.5440 ms
+2025-05-13 20:01:09.335 +03:00 [INF] HTTP OPTIONS /api/auth/refresh-token responded 204 in 0.0566 ms
+2025-05-13 20:01:09.591 +03:00 [INF] HTTP POST /api/auth/refresh-token responded 200 in 253.7351 ms
+2025-05-13 20:01:09.631 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 35.8863 ms
+2025-05-13 20:01:35.873 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1621 ms
+2025-05-13 20:01:35.956 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 76.9429 ms
+2025-05-13 20:01:36.003 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 18.2903 ms
+2025-05-13 20:01:39.102 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 14.0928 ms
+2025-05-13 20:01:40.066 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.5191 ms
+2025-05-13 20:01:40.072 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.9371 ms
+2025-05-13 20:02:09.045 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.1471 ms
+2025-05-13 20:05:24.290 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 20:05:24.310 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 20:05:30.390 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 4.2973 ms
+2025-05-13 20:05:53.305 +03:00 [INF] HTTP POST /api/events responded 201 in 22890.0412 ms
+2025-05-13 20:05:53.437 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 27.4042 ms
+2025-05-13 20:05:56.992 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 7.1266 ms
+2025-05-13 20:06:24.334 +03:00 [INF] HTTP GET /api/Tags responded 200 in 78.5410 ms
+2025-05-13 20:06:24.334 +03:00 [INF] HTTP GET /api/Category responded 200 in 84.2810 ms
+2025-05-13 20:07:02.036 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.5330 ms
+2025-05-13 20:09:58.260 +03:00 [INF] HTTP POST /api/events responded 201 in 176219.2384 ms
+2025-05-13 20:09:58.372 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 20:09:58.373 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 20:09:58.456 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 101.8241 ms
+2025-05-13 20:10:15.992 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.4578 ms
+2025-05-13 20:10:26.686 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.8808 ms
+2025-05-13 20:16:30.204 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 201609.9057 ms
+2025-05-13 20:17:47.884 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3799.3430 ms
+2025-05-13 20:17:57.584 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2700.4324 ms
+2025-05-13 20:20:13.290 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.5566 ms
+2025-05-13 20:20:39.705 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.4700 ms
+2025-05-13 20:21:01.996 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.1524 ms
+2025-05-13 20:23:04.401 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 35.7543 ms
+2025-05-13 20:37:20.154 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 64.3710 ms
+2025-05-13 20:37:32.059 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.2372 ms
+2025-05-13 20:37:44.611 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 7.3349 ms
+2025-05-13 20:37:56.726 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.2326 ms
+2025-05-13 20:38:16.369 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 51.5801 ms
+2025-05-13 20:38:16.374 +03:00 [INF] HTTP GET /api/Category responded 200 in 60.0581 ms
+2025-05-13 20:38:24.277 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.0215 ms
+2025-05-13 20:38:42.316 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.7453 ms
+2025-05-13 20:38:52.679 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.4906 ms
+2025-05-13 20:39:30.488 +03:00 [INF] HTTP GET /api/Category responded 200 in 51.1608 ms
+2025-05-13 20:39:30.489 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 25.8167 ms
+2025-05-13 20:39:36.913 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.1182 ms
+2025-05-13 20:39:36.998 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2966 ms
+2025-05-13 20:39:37.832 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.8370 ms
+2025-05-13 20:39:38.059 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.8268 ms
+2025-05-13 20:39:38.550 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.1302 ms
+2025-05-13 20:39:40.708 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.1354 ms
+2025-05-13 20:39:40.929 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.2352 ms
+2025-05-13 20:39:44.470 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.3600 ms
+2025-05-13 20:39:47.217 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.8306 ms
+2025-05-13 20:39:49.672 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.8525 ms
+2025-05-13 20:39:50.177 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.4924 ms
+2025-05-13 20:39:50.203 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.3860 ms
+2025-05-13 20:39:50.233 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.5807 ms
+2025-05-13 20:39:50.263 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2870 ms
+2025-05-13 20:39:50.298 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2142 ms
+2025-05-13 20:39:50.331 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2964 ms
+2025-05-13 20:40:00.637 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.3497 ms
+2025-05-13 20:40:01.141 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.1712 ms
+2025-05-13 20:40:01.166 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.1757 ms
+2025-05-13 20:40:01.198 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2491 ms
+2025-05-13 20:40:01.235 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.4908 ms
+2025-05-13 20:40:01.262 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.1471 ms
+2025-05-13 20:40:01.299 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.4362 ms
+2025-05-13 20:40:01.333 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.1720 ms
+2025-05-13 20:40:01.365 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2796 ms
+2025-05-13 20:40:01.385 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.1541 ms
+2025-05-13 20:40:01.547 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.4167 ms
+2025-05-13 20:40:01.881 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.3695 ms
+2025-05-13 20:40:02.541 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.2519 ms
+2025-05-13 20:40:02.557 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.3006 ms
+2025-05-13 20:40:03.102 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.3564 ms
+2025-05-13 20:40:06.111 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.3296 ms
+2025-05-13 20:40:06.114 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 6.6025 ms
+2025-05-13 20:40:09.725 +03:00 [INF] HTTP OPTIONS /api/bookings responded 204 in 0.1684 ms
+2025-05-13 20:40:09.771 +03:00 [INF] HTTP GET /api/bookings responded 200 in 40.2398 ms
+2025-05-13 20:40:10.324 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.4285 ms
+2025-05-13 20:40:14.016 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.5219 ms
+2025-05-13 20:40:18.042 +03:00 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.3831 ms
+2025-05-13 20:40:18.159 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 112.6149 ms
+2025-05-13 20:40:24.170 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0597 ms
+2025-05-13 20:40:24.291 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 117.6742 ms
+2025-05-13 20:40:24.308 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.9333 ms
+2025-05-13 20:40:26.546 +03:00 [INF] HTTP OPTIONS /api/bookings responded 204 in 0.0538 ms
+2025-05-13 20:40:26.557 +03:00 [INF] HTTP GET /api/bookings responded 200 in 6.7808 ms
+2025-05-13 20:40:29.114 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.5542 ms
+2025-05-13 20:41:53.651 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 22893.5729 ms
+2025-05-13 20:42:13.952 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 12764.2569 ms
+2025-05-13 20:51:18.131 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 20:51:18.152 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 20:51:22.848 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 20:51:22.850 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 21:31:18.470 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:31:18.488 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:31:28.496 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:31:28.514 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:31:43.136 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:31:43.159 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:32:48.424 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:32:48.446 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 21:32:53.895 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 21:32:53.898 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 21:33:03.098 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 9816.1506 ms
+2025-05-13 21:33:09.421 +03:00 [INF] HTTP OPTIONS /api/events/1 responded 204 in 1.2899 ms
+2025-05-13 21:33:09.811 +03:00 [INF] HTTP DELETE /api/events/1 responded 200 in 387.2581 ms
+2025-05-13 21:33:29.730 +03:00 [INF] HTTP OPTIONS /api/events/1 responded 204 in 0.0940 ms
+2025-05-13 21:33:41.525 +03:00 [INF] HTTP DELETE /api/events/1 responded 400 in 11792.1209 ms
+2025-05-13 21:33:44.565 +03:00 [INF] HTTP OPTIONS /api/events/3 responded 204 in 0.0643 ms
+2025-05-13 21:34:32.787 +03:00 [INF] HTTP DELETE /api/events/3 responded 200 in 48218.7616 ms
+2025-05-13 21:35:02.469 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 11.6135 ms
+2025-05-13 21:35:10.080 +03:00 [INF] HTTP GET /api/events/1 responded 404 in 36.6020 ms
+2025-05-13 21:35:13.540 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.7190 ms
+2025-05-13 21:35:16.268 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.6150 ms
+2025-05-13 21:36:33.090 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.5798 ms
+2025-05-13 21:36:38.074 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.3026 ms
+2025-05-13 21:36:39.103 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.4886 ms
+2025-05-13 21:36:46.109 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.2526 ms
+2025-05-13 21:36:53.079 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.1648 ms
+2025-05-13 21:36:58.080 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.1336 ms
+2025-05-13 21:39:51.246 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 148.4404 ms
+2025-05-13 21:39:56.077 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.7754 ms
+2025-05-13 21:39:58.077 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.5979 ms
+2025-05-13 21:40:00.079 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.3528 ms
+2025-05-13 21:40:04.074 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.1420 ms
+2025-05-13 21:40:15.081 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 4.5199 ms
+2025-05-13 21:40:18.077 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.6745 ms
+2025-05-13 21:40:20.070 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 1.7198 ms
+2025-05-13 21:40:24.410 +03:00 [INF] HTTP OPTIONS /api/events/2 responded 204 in 0.0614 ms
+2025-05-13 21:40:24.427 +03:00 [INF] HTTP DELETE /api/events/2 responded 401 in 14.8387 ms
+2025-05-13 21:40:24.431 +03:00 [INF] HTTP OPTIONS /api/auth/refresh-token responded 204 in 0.0581 ms
+2025-05-13 21:40:24.655 +03:00 [INF] HTTP POST /api/auth/refresh-token responded 200 in 220.7218 ms
+2025-05-13 21:40:26.487 +03:00 [INF] HTTP DELETE /api/events/2 responded 200 in 1828.9393 ms
+2025-05-13 21:40:34.072 +03:00 [INF] HTTP GET /api/Category responded 200 in 43.8594 ms
+2025-05-13 21:40:34.072 +03:00 [INF] HTTP GET /api/Tags responded 200 in 43.5762 ms
+2025-05-13 21:41:53.026 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.1011 ms
+2025-05-13 22:18:22.871 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:18:22.895 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:18:51.377 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 2.4659 ms
+2025-05-13 22:18:51.573 +03:00 [INF] HTTP POST /api/events responded 400 in 186.8322 ms
+2025-05-13 22:18:53.881 +03:00 [INF] HTTP POST /api/events responded 400 in 52.2341 ms
+2025-05-13 22:19:06.952 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.2275 ms
+2025-05-13 22:19:06.966 +03:00 [INF] HTTP POST /api/events responded 400 in 9.4174 ms
+2025-05-13 22:19:50.596 +03:00 [INF] HTTP GET /api/Category responded 200 in 528.9237 ms
+2025-05-13 22:19:50.596 +03:00 [INF] HTTP GET /api/Tags responded 200 in 505.6999 ms
+2025-05-13 22:19:53.124 +03:00 [INF] HTTP GET /api/Tags responded 200 in 61.8761 ms
+2025-05-13 22:19:53.131 +03:00 [INF] HTTP GET /api/Category responded 200 in 69.7264 ms
+2025-05-13 22:20:02.121 +03:00 [INF] HTTP GET /api/Tags responded 200 in 27.8262 ms
+2025-05-13 22:20:02.123 +03:00 [INF] HTTP GET /api/Category responded 200 in 29.9147 ms
+2025-05-13 22:20:32.357 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0695 ms
+2025-05-13 22:20:32.381 +03:00 [INF] HTTP POST /api/events responded 400 in 19.8519 ms
+2025-05-13 22:21:20.411 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0900 ms
+2025-05-13 22:21:20.418 +03:00 [INF] HTTP POST /api/events responded 400 in 3.0326 ms
+2025-05-13 22:22:39.071 +03:00 [INF] HTTP GET /api/Category responded 200 in 8.8455 ms
+2025-05-13 22:22:39.071 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8864 ms
+2025-05-13 22:22:50.066 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.4564 ms
+2025-05-13 22:22:50.066 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.5494 ms
+2025-05-13 22:22:55.073 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.6236 ms
+2025-05-13 22:22:55.081 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.9624 ms
+2025-05-13 22:23:14.070 +03:00 [INF] HTTP GET /api/Category responded 200 in 7.5595 ms
+2025-05-13 22:23:14.101 +03:00 [INF] HTTP GET /api/Tags responded 200 in 38.2807 ms
+2025-05-13 22:25:35.032 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0866 ms
+2025-05-13 22:25:35.042 +03:00 [INF] HTTP POST /api/events responded 400 in 2.5721 ms
+2025-05-13 22:25:52.065 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.0522 ms
+2025-05-13 22:25:52.066 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.5023 ms
+2025-05-13 22:26:10.070 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.5444 ms
+2025-05-13 22:26:10.071 +03:00 [INF] HTTP GET /api/Tags responded 200 in 7.8861 ms
+2025-05-13 22:26:17.067 +03:00 [INF] HTTP GET /api/Category responded 200 in 6.8074 ms
+2025-05-13 22:26:17.068 +03:00 [INF] HTTP GET /api/Tags responded 200 in 8.4262 ms
+2025-05-13 22:26:18.067 +03:00 [INF] HTTP GET /api/Category responded 200 in 3.1210 ms
+2025-05-13 22:26:18.067 +03:00 [INF] HTTP GET /api/Tags responded 200 in 2.8674 ms
+2025-05-13 22:26:33.065 +03:00 [INF] HTTP GET /api/Tags responded 200 in 3.8865 ms
+2025-05-13 22:26:33.066 +03:00 [INF] HTTP GET /api/Category responded 200 in 4.3202 ms
+2025-05-13 22:26:40.064 +03:00 [INF] HTTP GET /api/Category responded 200 in 2.0712 ms
+2025-05-13 22:26:40.064 +03:00 [INF] HTTP GET /api/Tags responded 200 in 1.3855 ms
+2025-05-13 22:26:47.629 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0890 ms
+2025-05-13 22:27:19.976 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Category', table 'EventBookingSystem.dbo.Events'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:43fd75fa-64a9-4fc0-be72-28c67875901d
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Category', table 'EventBookingSystem.dbo.Events'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:43fd75fa-64a9-4fc0-be72-28c67875901d
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-05-13 22:27:20.069 +03:00 [INF] HTTP POST /api/events responded 400 in 32437.5001 ms
+2025-05-13 22:27:53.819 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 0.0565 ms
+2025-05-13 22:28:10.661 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Category', table 'EventBookingSystem.dbo.Events'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:43fd75fa-64a9-4fc0-be72-28c67875901d
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Category', table 'EventBookingSystem.dbo.Events'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:43fd75fa-64a9-4fc0-be72-28c67875901d
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-05-13 22:28:48.501 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:28:48.523 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:28:49.820 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 6.8799 ms
+2025-05-13 22:30:32.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:30:32.391 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:30:38.822 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:30:38.843 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:30:55.927 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:30:55.950 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 22:31:04.164 +03:00 [INF] HTTP OPTIONS /api/events responded 204 in 2.2318 ms
+2025-05-13 22:31:24.154 +03:00 [INF] HTTP POST /api/events responded 201 in 19980.3164 ms
+2025-05-13 22:31:24.312 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 22:31:24.312 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-13 22:31:24.404 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 125.6821 ms
+2025-05-13 22:31:31.556 +03:00 [INF] HTTP GET /api/events/6 responded 200 in 118.6310 ms
+2025-05-13 22:31:33.937 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 12.4285 ms
+2025-05-13 22:31:34.840 +03:00 [INF] HTTP GET /api/events/6 responded 200 in 8.7471 ms
+2025-05-13 22:31:37.633 +03:00 [INF] HTTP GET /api/Category responded 200 in 42.7567 ms
+2025-05-13 22:31:39.769 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.2610 ms
+2025-05-13 22:59:52.966 +03:00 [INF] HTTP GET /api/events/6 responded 200 in 105.7606 ms
+2025-05-13 22:59:55.338 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 26.3618 ms
+2025-05-13 23:00:13.229 +03:00 [INF] HTTP GET /api/events/6 responded 200 in 3.1491 ms
+2025-05-13 23:00:20.128 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 3.1984 ms
+2025-05-13 23:00:23.315 +03:00 [INF] HTTP GET /api/events/6 responded 200 in 3.3953 ms
+2025-05-13 23:00:29.987 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.1737 ms
+2025-05-13 23:00:31.880 +03:00 [INF] HTTP GET /api/events/6 responded 200 in 3.5944 ms
+2025-05-13 23:00:33.598 +03:00 [INF] HTTP GET /api/events/paginated responded 200 in 2.7401 ms

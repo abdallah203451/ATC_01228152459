@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Presentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0C5A5C-4F3C-4C73-8C86-7E365A2EFD8C}|Presentation.csproj|d:\\areeb technology competition\\event booking system\\backend\\presentation\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0C5A5C-4F3C-4C73-8C86-7E365A2EFD8C}|Presentation.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDA6673-BAF6-4DC2-9B67-2A3FE24C3430}|..\\Application\\Application.csproj|d:\\areeb technology competition\\event booking system\\backend\\application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0C5A5C-4F3C-4C73-8C86-7E365A2EFD8C}|Presentation.csproj|d:\\areeb technology competition\\event booking system\\backend\\presentation\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0C5A5C-4F3C-4C73-8C86-7E365A2EFD8C}|Presentation.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDA6673-BAF6-4DC2-9B67-2A3FE24C3430}|..\\Application\\Application.csproj|d:\\areeb technology competition\\event booking system\\backend\\application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F4D8E-90F4-4BAF-AC58-85FC2E53FAD0}|..\\Infrastructure\\Infrastructure.csproj|d:\\areeb technology competition\\event booking system\\backend\\infrastructure\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDA6673-BAF6-4DC2-9B67-2A3FE24C3430}|..\\Application\\Application.csproj|d:\\areeb technology competition\\event booking system\\backend\\application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDA6673-BAF6-4DC2-9B67-2A3FE24C3430}|..\\Application\\Application.csproj|d:\\areeb technology competition\\event booking system\\backend\\application\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F4D8E-90F4-4BAF-AC58-85FC2E53FAD0}|..\\Infrastructure\\Infrastructure.csproj|d:\\areeb technology competition\\event booking system\\backend\\infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "..\\Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:39:35.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IEventService.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:25:59.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Presentation\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Presentation\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T23:52:05.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\EventService.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Services\\EventService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\EventService.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAYwLwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:31:39.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Infrastructure\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\EventRepository.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Infrastructure\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:02:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Presentation\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Presentation\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAawI8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:01:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\BookingService.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Application\\Services\\BookingService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\BookingService.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAiwOkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:01:09.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\BookingRepository.cs",
+              "ToolTip": "D:\\Areeb Technology Competition\\Event Booking System\\Backend\\Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAASwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:19:02.14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

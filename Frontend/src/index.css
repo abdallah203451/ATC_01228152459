@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800&display=swap");
+
+@layer base {
+  :root {
+    --background: 260 30% 98%;
+    --foreground: 260 15% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 260 15% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 15% 10%;
+
+    --primary: 262 52% 55%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 267 22% 92%;
+    --secondary-foreground: 262 45% 30%;
+
+    --muted: 267 22% 92%;
+    --muted-foreground: 260 15% 45%;
+
+    --accent: 262 52% 95%;
+    --accent-foreground: 262 45% 30%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 260 15% 88%;
+    --input: 260 15% 88%;
+    --ring: 262 52% 55%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 262 52% 55%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 262 52% 65%;
+  }
+
+  .dark {
+    --background: 260 15% 8%;
+    --foreground: 260 5% 95%;
+
+    --card: 260 15% 12%;
+    --card-foreground: 260 5% 95%;
+
+    --popover: 260 15% 12%;
+    --popover-foreground: 260 5% 95%;
+
+    --primary: 263 70% 71%;
+    --primary-foreground: 260 15% 12%;
+
+    --secondary: 260 15% 20%;
+    --secondary-foreground: 260 5% 95%;
+
+    --muted: 260 15% 20%;
+    --muted-foreground: 260 5% 65%;
+
+    --accent: 263 70% 20%;
+    --accent-foreground: 260 5% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 260 5% 95%;
+
+    --border: 260 15% 20%;
+    --input: 260 15% 20%;
+    --ring: 263 70% 71%;
+
+    --sidebar-background: 260 15% 12%;
+    --sidebar-foreground: 260 5% 95%;
+    --sidebar-primary: 263 70% 71%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 260 15% 18%;
+    --sidebar-accent-foreground: 260 5% 95%;
+    --sidebar-border: 260 15% 20%;
+    --sidebar-ring: 263 70% 71%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+/* Event Card Styling */
+.event-card {
+  @apply bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-card-hover transition-all duration-300 border border-transparent hover:border-primary/30;
+}
+
+.event-card-image {
+  @apply h-52 w-full object-cover;
+}
+
+/* Animation Classes */
+.fade-in {
+  @apply animate-fade-in;
+}
+
+.shimmer {
+  @apply animate-shimmer bg-gradient-to-r from-transparent via-white/10 to-transparent bg-[length:40rem_100%];
+}
+
+.floating {
+  @apply animate-float;
+}
+
+/* Skeleton loader */
+.skeleton {
+  @apply bg-gray-200/60 dark:bg-gray-700/60 animate-pulse rounded-md;
+}
+
+/* Glass effect */
+.glass {
+  @apply bg-white/10 dark:bg-black/10 backdrop-blur-lg border border-white/10 dark:border-white/5 shadow-glass;
+}
+
+/* Enhanced Button */
+.btn-primary {
+  @apply relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-primary px-6 py-3 font-medium text-white transition-all duration-300 hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-primary/70 focus:ring-offset-2 shadow-md;
+}
+
+/* Interactive card hover effect */
+.card-hover {
+  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-card-hover;
+}
+
+/* Experience tag styling */
+.tag {
+  @apply inline-flex items-center justify-center px-3 py-1 text-xs font-medium rounded-full bg-secondary/70 text-secondary-foreground;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-gradient-primary bg-clip-text text-transparent;
+}
+
+/* Hero pattern overlay */
+.pattern-overlay {
+  @apply bg-hero-pattern;
+}
+
+/* Navbar backdrop blur */
+.navbar-blur {
+  @apply bg-background/80 backdrop-blur-md;
+}
+
+/* Card highlight */
+.card-highlight {
+  @apply relative after:absolute after:inset-0 after:rounded-2xl after:bg-gradient-to-r after:from-primary/20 after:to-transparent after:opacity-0 after:transition-opacity after:duration-500 hover:after:opacity-100;
+}
+
+/* Section divider */
+.section-divider {
+  @apply relative h-px w-full bg-gradient-to-r from-transparent via-primary/30 to-transparent my-16;
+}

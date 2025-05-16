@@ -1,0 +1,515 @@
+2025-05-11 01:11:37.582 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 03:04:05.102 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 03:05:19.567 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 1.2061 ms
+2025-05-11 03:06:30.429 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.1561 ms
+2025-05-11 03:08:06.982 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 03:08:50.091 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 03:09:25.273 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 1.5438 ms
+2025-05-11 03:10:15.347 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 03:10:15.350 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 03:10:30.350 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 65060.8097 ms
+2025-05-11 03:11:39.188 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 25.4521 ms
+2025-05-11 03:12:15.751 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 36546.9355 ms
+2025-05-11 03:12:22.995 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.0787 ms
+2025-05-11 03:12:39.125 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 16127.5465 ms
+2025-05-11 03:12:53.341 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.0655 ms
+2025-05-11 03:12:54.973 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 1627.7012 ms
+2025-05-11 03:13:03.548 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.0552 ms
+2025-05-11 03:14:19.813 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 76240.7141 ms
+2025-05-11 03:14:42.603 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.0573 ms
+2025-05-11 03:16:37.573 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 114923.0881 ms
+2025-05-11 03:16:48.925 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.0476 ms
+2025-05-11 03:16:58.480 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 9552.1661 ms
+2025-05-11 03:17:22.499 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 0.0925 ms
+2025-05-11 03:17:24.180 +03:00 [INF] HTTP POST /api/Auth/register responded 400 in 1677.1563 ms
+2025-05-11 03:18:03.135 +03:00 [INF] HTTP OPTIONS /api/Auth/register responded 204 in 3.7917 ms
+2025-05-11 03:18:04.978 +03:00 [INF] HTTP POST /api/Auth/register responded 200 in 1837.2089 ms
+2025-05-11 03:18:54.771 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0440 ms
+2025-05-11 03:18:54.921 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 132.5995 ms
+2025-05-11 03:19:52.309 +03:00 [INF] HTTP OPTIONS /api/Auth/refresh-token responded 204 in 0.1262 ms
+2025-05-11 03:19:52.364 +03:00 [INF] HTTP POST /api/Auth/refresh-token responded 200 in 48.1766 ms
+2025-05-11 03:20:56.955 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 5.4072 ms
+2025-05-11 03:21:52.062 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 4.5309 ms
+2025-05-11 03:22:02.049 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 1.1255 ms
+2025-05-11 03:22:02.669 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1292 ms
+2025-05-11 03:22:03.129 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1307 ms
+2025-05-11 03:22:03.326 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1538 ms
+2025-05-11 03:22:15.548 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0577 ms
+2025-05-11 03:22:15.716 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 162.3398 ms
+2025-05-11 03:22:38.161 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.2026 ms
+2025-05-11 03:22:39.241 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1487 ms
+2025-05-11 03:22:39.746 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1283 ms
+2025-05-11 03:24:27.892 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1306 ms
+2025-05-11 03:24:28.050 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 150.2407 ms
+2025-05-11 03:36:05.583 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1263 ms
+2025-05-11 03:36:05.790 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 199.0717 ms
+2025-05-11 03:36:26.869 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1903 ms
+2025-05-11 03:46:35.109 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-11 03:46:35.177 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-11 03:46:42.252 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-11 03:46:42.308 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-11 03:47:56.283 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-11 03:47:56.319 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-11 03:49:55.270 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-11 03:49:55.303 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-11 03:52:37.421 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-11 03:52:37.476 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-11 03:59:35.815 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 03:59:55.912 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.5222 ms
+2025-05-11 03:59:56.499 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 03:59:56.502 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 03:59:57.237 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1316.7339 ms
+2025-05-11 04:00:26.635 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 6.4506 ms
+2025-05-11 04:08:31.581 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2093 ms
+2025-05-11 04:08:31.952 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 367.2348 ms
+2025-05-11 04:09:01.752 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.5743 ms
+2025-05-11 04:14:43.664 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 4.0668 ms
+2025-05-11 04:15:42.874 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1985 ms
+2025-05-11 04:15:42.980 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 100.2380 ms
+2025-05-11 04:16:06.173 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1935 ms
+2025-05-11 04:16:08.510 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1128 ms
+2025-05-11 04:19:39.647 +03:00 [INF] HTTP POST /api/Auth/logout responded 401 in 43.3973 ms
+2025-05-11 04:20:36.544 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1826 ms
+2025-05-11 04:20:37.461 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1307 ms
+2025-05-11 04:20:37.676 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1472 ms
+2025-05-11 04:30:36.109 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 04:30:49.622 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 4.3526 ms
+2025-05-11 04:30:51.190 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 04:30:51.193 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 04:30:53.021 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 3372.0415 ms
+2025-05-11 04:31:09.206 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 9.7818 ms
+2025-05-11 04:33:09.066 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 04:33:16.724 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 04:33:25.353 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 3.9856 ms
+2025-05-11 04:33:27.041 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 04:33:27.045 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 04:33:29.030 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 3662.6019 ms
+2025-05-11 04:33:44.354 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 10.1463 ms
+2025-05-11 04:34:02.165 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 8.0525 ms
+2025-05-11 04:35:44.076 +03:00 [INF] HTTP GET /api/Auth/me responded 200 in 51552.9077 ms
+2025-05-11 04:36:33.000 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.5873 ms
+2025-05-11 04:36:44.422 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1122 ms
+2025-05-11 04:37:04.549 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 2.2955 ms
+2025-05-11 04:37:06.349 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1192 ms
+2025-05-11 04:39:43.007 +03:00 [INF] HTTP GET /api/Auth/me responded 200 in 4826.6964 ms
+2025-05-11 23:08:42.357 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:24:36.019 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 2.9220 ms
+2025-05-11 23:24:39.467 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:24:39.471 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:24:59.247 +03:00 [ERR] An error occurred using the connection to database 'EventBookingSystem' on server 'LAPTOP-99DF6QGE'.
+2025-05-11 23:24:59.283 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2025-05-11 23:24:59.508 +03:00 [INF] HTTP POST /api/Auth/login responded 401 in 23455.9315 ms
+2025-05-11 23:25:41.411 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 49.4058 ms
+2025-05-11 23:25:42.649 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1229.7192 ms
+2025-05-11 23:33:18.327 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 17.7324 ms
+2025-05-11 23:34:09.922 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:34:20.790 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.7918 ms
+2025-05-11 23:34:21.336 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:34:21.337 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:34:21.989 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1188.0735 ms
+2025-05-11 23:34:40.918 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 6.7384 ms
+2025-05-11 23:35:36.471 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:35:49.386 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 115.6149 ms
+2025-05-11 23:36:11.779 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 27.3317 ms
+2025-05-11 23:37:00.696 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c.<<Main>$>b__0_1(CorsOptions options) in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Program.cs:line 51
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at InvokeStub_CorsService..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-11 23:37:00.733 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c.<<Main>$>b__0_1(CorsOptions options) in D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\Program.cs:line 51
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at InvokeStub_CorsService..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-11 23:37:23.259 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:37:31.192 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:37:38.158 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 3.0957 ms
+2025-05-11 23:37:39.724 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:37:39.728 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:37:41.501 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 3328.0582 ms
+2025-05-11 23:37:52.780 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 14.2080 ms
+2025-05-11 23:39:14.703 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:39:21.797 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:39:28.526 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.3897 ms
+2025-05-11 23:39:29.960 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:39:29.964 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:39:31.825 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 3290.9571 ms
+2025-05-11 23:39:52.286 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 45.2942 ms
+2025-05-11 23:40:12.758 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 2.5254 ms
+2025-05-11 23:40:36.702 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 6.4561 ms
+2025-05-11 23:45:28.768 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:45:35.266 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:45:42.189 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.4260 ms
+2025-05-11 23:45:42.741 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:45:42.743 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:45:43.445 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1247.2144 ms
+2025-05-11 23:46:12.525 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 7.1004 ms
+2025-05-11 23:46:13.477 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 1.2382 ms
+2025-05-11 23:46:13.650 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.8899 ms
+2025-05-11 23:46:32.712 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 5.7420 ms
+2025-05-11 23:46:37.582 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1876 ms
+2025-05-11 23:49:57.637 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2452 ms
+2025-05-11 23:49:57.930 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 290.1338 ms
+2025-05-11 23:50:47.973 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:50:58.348 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 4.8547 ms
+2025-05-11 23:50:59.853 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:50:59.856 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:51:01.563 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 3191.2304 ms
+2025-05-11 23:51:22.181 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 10.9457 ms
+2025-05-11 23:51:23.084 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 1.6174 ms
+2025-05-11 23:51:23.959 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 1.1618 ms
+2025-05-11 23:51:24.539 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.2402 ms
+2025-05-11 23:51:24.740 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1865 ms
+2025-05-11 23:51:24.921 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1985 ms
+2025-05-11 23:51:27.635 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.2501 ms
+2025-05-11 23:51:30.498 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1567 ms
+2025-05-11 23:52:11.517 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2833 ms
+2025-05-11 23:52:11.618 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 93.7443 ms
+2025-05-11 23:53:28.669 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1459 ms
+2025-05-11 23:53:29.381 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.4288 ms
+2025-05-11 23:53:29.979 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1073 ms
+2025-05-11 23:53:54.627 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1319 ms
+2025-05-11 23:53:57.843 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.0657 ms
+2025-05-11 23:54:01.302 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1394 ms
+2025-05-11 23:55:06.842 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1853 ms
+2025-05-11 23:55:46.863 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 0.1406 ms
+2025-05-11 23:57:11.775 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:57:23.957 +03:00 [WRN] The WebRootPath was not found: D:\Areeb Technology Competition\Event Booking System\Backend\Presentation\wwwroot. Static files may be unavailable.
+2025-05-11 23:57:40.890 +03:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 4.6453 ms
+2025-05-11 23:57:42.449 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:57:42.452 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-11 23:57:44.241 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 3326.8314 ms
+2025-05-11 23:58:12.873 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.9738 ms
+2025-05-11 23:58:17.938 +03:00 [INF] HTTP GET /api/Auth/me responded 401 in 16.2298 ms
