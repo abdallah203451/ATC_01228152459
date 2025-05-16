@@ -77,7 +77,8 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(
                 "http://localhost:8080", // Vite dev server default
                 "http://localhost:4200", // Angular default if used
-                "http://localhost:5148")// React/Next.js default if used
+                "http://localhost:5148",
+				"https://ticket-central.runasp.net")// React/Next.js default if used
 
 			  .AllowAnyHeader()
               .AllowAnyMethod()
